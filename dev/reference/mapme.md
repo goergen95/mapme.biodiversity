@@ -128,7 +128,7 @@ resources as `sf` and `SpatRaster`-objects.
 library(mapme.biodiversity)
 mapme_options()
 #> $outdir
-#> [1] "/tmp/Rtmpe3UksF/mapme-data"
+#> [1] "/tmp/RtmpW8OXfR/mapme-data"
 #> 
 #> $chunk_size
 #> [1] 1e+08
