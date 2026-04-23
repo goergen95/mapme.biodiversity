@@ -62,6 +62,12 @@ aoi <- system.file("extdata", "sierra_de_neiba_478140_2.gpkg",
     )
   ) %>%
   portfolio_long()
+#> Error in sf::gdal_utils(util = util, source = source, destination = destination,  : 
+#>   gdal_utils translate: an error occured
+#> Warning: GDAL Error 1: In file ./port/cpl_vsil_gzip.cpp, at line 1207, decompression failed with z_err = -1, return = 609
+#> Warning: GDAL Error 1: TIFFFillStrip:Read error at scanline 460; got 609 bytes, expected 8274
+#> Warning: GDAL Error 1: TIFFReadEncodedStrip() failed.
+#> Warning: GDAL Error 1: /vsizip//vsicurl/https://geodata.ucdavis.edu/climate/worldclim/2_1/hist/cts4.09//wc2.1_cruts4.09_2.5m_prec_2010-2019.zip/wc2.1_cruts4.09_2.5m_prec_2018-06.tif, band 1: IReadBlock failed at X offset 0, Y offset 461: TIFFReadEncodedStrip() failed.
 
 aoi
 #> Simple feature collection with 24 features and 8 fields
